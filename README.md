@@ -18,9 +18,9 @@ Express.js, Heroku, Javascript, HTML and CSS.
 Link to deployed site at Heroku : 
 
 ## Screenshot
-<img src="/public/assets/images/Sreenshot.png"/>
+<img src="./public/assets/image/NoteTaker.png"/>
 <br>
-<img src="/public/assets/images/SavedNote.png"/>
+<img src="./public/assets/image/SavedNotes.png"/>
 
 ## Contributing
 To contribute please refer to https://github.com/microsoft/vscode/wiki/How-to-Contribute
