@@ -15,7 +15,7 @@ An application utilising backend Express.js to allow users to write, store and d
 Express.js, Heroku, Javascript, HTML and CSS.
 
 ## Usage
-Link to deployed site at Heroku : https://git.heroku.com/secret-woodland-41524.git
+Link to deployed site at Heroku : https://secret-woodland-41524.herokuapp.com/
 
 ## Screenshot
 <img src="./public/assets/image/NoteTaker.png"/>
