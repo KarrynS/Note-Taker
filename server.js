@@ -78,33 +78,3 @@ app.get("*", (req,res) =>
 app.listen(PORT, () => console.log(`App listening on PORT: ${PORT}`));
 
 
-/* --alternative app.delete
-
-app.delete("/api/notes/:id", (req,res) => {
-    let noteIndex = 0;
-    for(let i = 0; i<savedNotes.length; i++) { 
-        if (req.params.id === savedNotes[i].id) {
-            deleteId = i;
-        }
-    }
-    savedNotes.splice(deleteId, 1);
-    fs.writeFile("./db/db.json", JSON.stringify(savedNotes), function(err) {
-        if(err) {
-            return console.log("Error:", err)
-        }
-        console.log("Note deleted from NoteTaker")
-        res.send(savedNotes);
-    })
-}) 
-app.delete("/api/notes/:id", (req,res) => {
-    const noteId = req.params.id;
-    const deletedNotes = savedNotes.filter(notes => notes.id !== noteId);
-    fs.writeFile("./db/db.json", JSON.stringify(deletedNotes), function(err) {
-        if(err) {
-            return console.log("Error:", err)
-        }
-        console.log("Note deleted from NoteTaker")
-        res.send(deletedNotes);
-    })
-}) 
-*/
